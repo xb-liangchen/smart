@@ -1,0 +1,162 @@
+/*=========公共样式==========*/
+.cls{
+	margin: 0px;
+	padding: 0px;
+}
+/*背景*/
+.bg1{ background:#142f44;}
+.bg2{background:#049ade;}
+
+/*外边距*/
+.margin-top1{
+	margin-top: 1em;
+}
+.margin-top2{
+	margin-top: -0.6em;
+}
+.margin-top3{
+	margin-top: -2.4em;
+}
+.margin-top4{
+	margin-top: 2em;
+}
+.margin-left1{
+   margin-left: 10px;
+}
+.margin-left2{
+   margin-left: 2em;
+}
+.margin-left2{
+   margin-left: -1em;
+}
+.border-bottom1{/*灰色线*/
+	border-bottom: 1px solid #EAEAEA;
+}
+.width-2{
+	width: 2em;
+}
+.width-5{
+	width: 20em;
+}
+
+/*字体*/
+.color1{
+	color: #808080;/*灰色小字*/
+}
+.color2{
+	color: #5bc0de;/*蓝色按钮*/
+}
+.color3{
+	color: #ff0000;/*红色*/
+}
+.color4{
+	color: #000000;/*黑色*/
+}
+.color5{
+	color:#17A3CC;/*蓝色标题字*/
+}
+.color6{
+	color:#EAEAEA;/*淡灰色  用于背景*/
+}
+.color7{
+	color: white;
+}
+.font-size10{
+	font-size:10px; 
+}
+.font-size12{
+	font-size:12px; 
+}
+.font-size14{
+	font-size:14px; 
+}
+.font-size16{
+	font-size:16px; 
+}
+.font-size18{
+	font-size:18px; 
+}
+.font-size20{
+	font-size:20px; 
+}
+.font-weight-normal{
+ font-weight: normal;
+}
+
+/*===浮动===*/
+.float1{ float:left;}
+
+.float2{float:right;}
+
+.float3{float:none;}
+
+.text-align1{
+	text-align: left;
+}
+.text-align2{
+	text-align: center;
+}
+
+.text-align3{
+	text-align: right;
+}
+
+.cls{clear:both;}
+
+.line-height-3{
+	line-height: 3em;
+}
+.line-height-2{
+	line-height: 2em;
+}
+.height2{
+	height: 2em;
+}
+.height3{
+	height: 3em;
+}
+.line-height-4{
+	line-height: 2em;
+}
+.height4{
+	height: 2em;
+}
+.display-inline{
+	display: inline;
+}
+
+
+
+
+
+
+
+/*----------------------------*/
+
+.content{
+	margin-left:1em;
+	margin-right:1em;
+	text-align: center;
+	margin-top: 1em;
+	position: relative;
+}
+.textbg1{
+	background: none repeat scroll 0 0 #ff423d;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px #252729;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    right: -5px;
+    text-align: center;
+    top: -5px;
+    width: 230px;
+}
+
+.img_headicon{
+	width: 3em;
+	height: 2.8em;
+}

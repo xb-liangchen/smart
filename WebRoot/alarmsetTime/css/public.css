@@ -1,0 +1,195 @@
+/*===页头式样===*/
+.header{  background:#1aaaea;   position:relative;    }
+.header_top{ clear:both; height:1.3em;  }
+/*下面是左边的返回*/
+.header_left{ position:absolute; z-index:1; left:1%; top:1.9em; width:25%; height:2em; line-height:2em;font-size:1em !important;   }
+.headFont1{ float:left; height:2em; width:1em; overflow:hidden; }
+.headFont2{ float:left; height:2em; line-height:1.7em;font-size:1em !important; }
+
+.header_mid{text-align:center; width:100%; height:2em; line-height:2em; font-size:1.4em !important;}/*中间文字*/
+
+
+.header_right{z-index:1;position:absolute; left:70%; top:1.9em;   width:30%;    text-align:right; height:2em; line-height:2em;font-size:1em !important; }
+.headFont1{font-size:1.6em !important; }
+	 
+ 
+/*===中间内容区域式样===*/
+.content{
+	/*background-image:url('../images/2x/bg.png');*/ 
+	background-repeat:no-repeat;
+	background-size:100% 100%;  
+}
+.content1{
+	background-color: #36648B; 
+}
+.content_div{ height:auto; position:absolute; left:0px; top:0px; width:100%;}
+	
+	
+/*===弹出提示===*/
+ 
+.toast{ position:absolute; left:0px;   z-index:10000; padding-left:.4em; padding-right:.4em;padding-top:.3em; padding-bottom:.3em;background:#000; opacity:0.5; color:#fff;}
+
+
+
+
+
+/*===公共式样===*/
+	.color1{ color:#ffffff; }
+	.color2{ color:#e1e3e4}
+	.color3{color:#91adbb}
+	.color4{color:#769aa8}
+	.color5{color:black}
+	.color5{color:#61bf62}
+	.color6{color:#0fb9f1}
+	.color7{color:#7b828b}
+	.color8{color:#67B4C8}
+	.color9{color:#828385; }
+	.color10{color:#bdbfc1; }
+	.color11{color:#8d9aa3; }
+	.color12{color:#009cdf; }
+	.fontSize1{ font-size: 1.2em !important;}
+	.fontSize2{ font-size:1em !important;}
+	.fontSize3{ font-size:.6125em !important;}
+	.fontSize4{ font-size: 1.1em !important;}
+	.fontSize5{ font-size:.8em !important; }
+	.fontSize6{ font-size:.9em !important; }
+	.fontweight{font-weight:bolder;}
+	.margin1{ margin-top:2em;}
+	.paddingTop1{ padding-top:3em;}
+	.paddingTop2{ padding-top:.7em;}
+	.paddingTop3{padding-top:1em;}
+	.paddingTop4{ padding-top:2em;}
+	.paddingTop5{ padding-top:.3em;}
+	.paddingTop6{ padding-top:.5em; }
+	.paddingTop8{ padding-top:.6em;}
+	
+	.paddingBottom2{padding-bottom:.7em; }
+	.paddingLeft1{ padding-left:4%;}
+	.paddingRight1{ padding-right:4%;}
+	.paddingRight2{padding-right:1em;}
+	.marginLeft1{ margin-left:.5em;}
+	.marginLeft2{ margin-left:2%;}
+	.marginLeft3{ margin-left:3%;}
+	.marginLeft4{ margin-left:.3em;}
+	.marginLeft5{margin-left:15%;}
+	.marginLeft6{margin-left:5%;}
+	.marginRight{margin-right:10%;}
+	.marginBottom1{margin-bottom:1em; }
+	.minHeight1{ min-height:40em;}
+	.minHeight2{ min-height:15em;}
+	.width1{ width:30%}
+	.width2{ width:3em;}
+	.width3{ width:1.8em;}
+	.ubBoxFlex1{-moz-box-flex:1;-webkit-box-flex:1;box-flex:1;}
+	.ubBoxFlex2{-moz-box-flex:2;-webkit-box-flex:2;box-flex:2;}
+	.ubBoxFlex3{-moz-box-flex:3;-webkit-box-flex:3;box-flex:3;}
+	.ubBoxFlex4{-moz-box-flex:4;-webkit-box-flex:4;box-flex:4;}
+	.ubBoxFlex5{-moz-box-flex:5;-webkit-box-flex:5;box-flex:5;}
+	.ubBoxFlex6{-moz-box-flex:6;-webkit-box-flex:6;box-flex:6;}
+	.ubBoxFlex7{-moz-box-flex:7;-webkit-box-flex:7;box-flex:7;}
+	.ubBoxFlex8{-moz-box-flex:8;-webkit-box-flex:8;box-flex:8;}
+	.float1{ float:left;}
+	.float2{float:right;}
+	.ub-box-align1{ -moz-box-align:end; -webkit-box-align:end; -o-box-align:start; box-align:end;}
+	.ub-box-align2{ -moz-box-align:start; -webkit-box-align:start; -o-box-align:start; box-align:start;}
+	.div_foot_text{position:absolute; top:80%}
+	.textAlign2{ text-align:center;}
+	.textAlign1{ text-align:left;}
+	ul li{
+		font-size:0.5em;
+	}
+	.img1{ width:2em; height:2em;}
+	
+	.img2{
+		background-image:url('../images/2x/icon_13.png');
+		background-repeat:no-repeat;
+		 
+		background-position:50%;
+		 
+		background-size:contain;
+	}
+	.img3{
+		background-image:url('../images/2x/icon_14.png');
+		background-repeat:no-repeat;		 
+		background-position:50%;
+		background-size:contain;
+	}
+	.img4{
+		background-image:url('../images/2x/switch.png');
+		background-repeat:no-repeat;
+		background-position:50%;
+		background-size:contain;
+	}
+	.img7{ width:100%;/* height:5em;*/}
+	.img8{ width:80%; height:auto;  }
+	.img9{ width:50%; height:70%;}
+	.img10{ width:100%; height:auto;}
+	.img11{ width:.5em; height:.5em;}
+	.img12{width:5em;height:3em;}
+	.img13{width:1.7em;height:1.7em;}
+	.img14{width:2em;height:2em;}
+	.img15{ width:30%; margin-left:70%; height:auto;margin-top:.5em;}
+	.img16{ width:35%; margin-left:32.5%; margin-top:1.2em; height:auto;}
+	.img17{ width:40%;  height:auto;margin-top:.5em; margin:0 auto;}
+	.img18{ width:1em; height:1em;}
+	.borderBotton1{
+		border-bottom:1px solid #d8e0e0;
+		height:1px;
+	}
+	.borderBottom2{
+		border-top: 1px solid #6686BE;
+	}
+	.borderBottom3{border-bottom:1px solid #6686BE;}
+	.borderTop1{border-top:1px solid #6686BE;}
+	.listStyle{
+		width:33%;
+		font-size:1em;
+	}
+	.cls{
+		clear:both;
+	}
+	.height1{ height:1.4em; background:red}
+    .height2{height:3em;}
+    .height3{height:2em;}
+    .height4{height:1.6em;}
+	.height5{height:3em; line-height:3em;}
+	.input1{position:absolute; left:10%; top:0px; width:80%; height:1.4em;  border:1px solid #ccc; }
+	/*圆角*/
+	.u-b-radius{-webkit-border-radius: 0.3em;border-radius: 0.3em;}
+	
+	.popDiv{ position:absolute; left:0px;  z-index:9999; width:100%; height:100%;  display:none; background:url(../images/pop_bg.png);}
+	.popDivText{text-align:center; margin-left:.6em;}
+	.popDivPint{ margin:0 auto; background:#fff; width:60%; padding-left:4%;  }
+	 
+	
+	.popDivCenter{ width:84%; height:8em; background:#fff;position:absolute; left:8%;    }
+	.clearBoth{ clear:both;}
+	
+	.block{ display:block;}
+	.user-select{-webkit-user-select:none;-moz-user-select:none;}
+	
+	.borderBg1{ height:2px; width:100%;background:url(../images/2x/line_bg2.gif); background:#3f6c85;}
+	
+	/*滑动开关式样*/
+	.switchDivLeft{ width:50%; position:absolute; left:0px; top:0px; background:none; z-index:1; }
+	.switchDivRight{ width:50%; position:absolute; left:50%; top:0px; background:none;z-index:1; }
+	/*底部固定位置的按钮*/
+	.foot_add{background:none;   padding-right:4%; padding-left:4%; padding-top:.5em;}
+	.foot_add1{height:2.5em; line-height:2.5em; overflow:hidden;  text-align:center; position:relative;  overflow:hidden;background-repeat:no-repeat;background-size:100% 100%;}
+	.foot_add2{ position:absolute; left:38%; top:0px;}
+	.img19{height:1.3em; padding-top:.6em;}
+	.foot_add_img{background-image:url('../images/2x/button_001.png');color:#029905;}
+	
+	.foot_del_img{background-image:url('../images/2x/button_007.png');color:red;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

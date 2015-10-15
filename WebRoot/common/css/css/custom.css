@@ -1,0 +1,828 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul, li, dl, dt, dd, p, h1, h2, h3, h4,span, form, img, div, option ,input ,button ,checkbox{
+    border:none;
+    margin: 0;
+	padding:0;
+    outline: 0 none;
+	font-family:Arial,"微软雅黑" ;
+}
+*{margin:0px;padding:0px;}
+ul,li { list-style:none}
+a{text-decoration:none; }
+.clear{
+	clear:both;
+}
+.card_main{
+	width:100%;
+	margin:0 auto0;
+}
+.card_B3{
+	background:url(../scene/images/card_on_1.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:145px;
+}
+.card_ricecooker_gray{
+	background:url(../scene/images/card_off.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:145px;
+}
+
+.card_bottom{
+	background:url(../scene/images/card_bottom_1.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height: 32px;
+    padding-top: 10px;
+	background-size:cover;
+}
+.card_bottom01{
+	background:url(../scene/images/card_bottom_2.png) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height: 32px;
+    padding-top: 10px;
+}
+.title{
+	font-size:1.125em;
+	color:#fff;
+	position: relative;
+	top:10px;
+	left:10px;
+	text-shadow: 0 0 0 #505050;
+	float:left;
+}
+.data_info_other {
+    color: #fff;
+    float: left;
+    font-size: 1em;
+    margin-top: 70px;
+    text-shadow: 0 0 0 #000;
+	margin-left:2%;
+}
+.data_info_other img{
+	width:22px;
+}
+.data_info {
+    color: #fff;
+    float: left;
+    font-size: 1em;
+    margin-top: 30px;
+    text-shadow: 0 0 0 #000;
+	margin-left:10px;
+}
+.data_info label{
+	font-size: 4em;
+}
+.data_info span {
+    font-size: 1em;
+	margin-right: 5px;
+	float: left;
+}
+.data_info img {
+    width: 20px;
+}
+/*快捷按钮*/
+.ricecooker_cancel{
+	float:left;
+	background:url(../scene/images/card-icon01.png)  no-repeat;
+	background-position:40%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:60%;
+	padding-left:0%;
+
+}
+.ricecooker_01{
+	float:left;
+	background-position:20%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:20%;
+	padding-left:2%;
+
+}
+.ricecooker_02{
+	float:left;
+	background-position:25%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:20%;
+	padding-left:5%;
+}
+.ricecooker_03{
+	float:left;
+	background-position:25%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:20%;
+	padding-left:5%;
+}
+.ricecooker_04{
+	float:left;
+	/* background:url(../images/card_bottom_but_3.png)  no-repeat; */
+	background-position:25%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:20%;
+	padding-left:5%;
+}
+.unit_div{
+	float: left;
+	width: 10px;
+	height: 30px;
+	margin-top: 5px;
+}
+/*电饭煲卡片 结束*/
+
+/*控制页样式 开始*/
+.microwave_top_01
+{
+    height: 210px;
+    background: url(../scene/images/microwave_top_01.png) no-repeat;
+    background-size: 100% 100%;
+}
+.topbg_01
+{
+    padding-top: 25px;
+    height: 44px;
+}
+.back
+{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: block;
+    padding: 5px 5px 5px 20px;
+    color: #fff;
+	background:url(../scene/images/backimg.png) 5px no-repeat;
+    text-shadow: 0 0 0 #505050;
+    font-size: 1em;
+}
+.back:hover
+{
+    border-radius: .3125em;
+    box-shadow: 0 0 10px #fff ;
+}
+.link
+{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    display: block;
+    padding: 1px 5px;
+    color: #fff;
+    text-shadow: 0 0 0 #505050;
+    font-size: 1em;
+    line-height: 28px;
+}
+.link:hover
+{
+    border-radius: .3125em;
+    box-shadow: 0 0 10px #fff ;
+}
+.top_title
+{
+    color: #fff;
+    text-shadow: 0 0 0 #505050;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: center;
+}
+/*data area style*/
+.data_area_1
+{
+    height: 158px;
+    background-size: 100% 100%;
+    text-shadow: 0 6px 4px rgba(0, 0, 0,.1);
+}
+.data_number
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 5em;
+    letter-spacing: -3px;
+}
+.data_detailed
+{
+    float: left;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 1em;
+	width: 12px;
+}
+.data_detailed span
+{
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.data_detailed img
+{
+    position: absolute;
+    margin: 4px 0 0 8px;
+    width: 18px;
+    height: 18px;
+}
+.data_detailed > .second
+{
+    position: relative;
+    top: 45px;
+    left: 10px;
+}
+.data_status
+{
+    float: right;
+    margin-top: 42px;
+	width:30%;
+
+}
+.data_status span
+{
+    display: block;
+    padding: 2px;
+    color: #fff;
+    background: url(../scene/images/info-right-item-bg.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: .875em;
+    text-align: left;
+}
+
+.bulebg
+{
+    margin-top: 30px;
+    padding: 0 20px;
+    height: 34px;
+    color: #94999f;
+    border: 1px solid #b6c2c6;
+    border-right: none;
+    border-left: none;
+    background: #e7eef3;
+    line-height: 34px;
+    text-align: center;
+    text-align: left;
+}
+/*控制页样式 结束*/
+
+
+/*三个按钮的样式*/
+.functiondiv
+{
+    background: #fff;
+}
+.block_b
+{
+    float: left;
+    width: 33%;
+    height: 130px;
+}
+.icon_control01
+{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    color: #7e8793;
+    background: url(../scene/images/icon_modebg_white.png) center no-repeat;
+    background-size: auto 65%;
+}
+.icon_control01_active
+{
+    color: #fff;
+    background: url(../scene/images/icon_modebg_blue.png) center no-repeat;
+    background-size: auto 65%;
+}
+.icon_control02
+{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    color: #7e8793;
+    background: url(../scene/images/icon_modebg_white.png) center no-repeat;
+    background-size: auto 65%;
+}
+.icon_control02_active
+{
+    color: #fff;
+    background: url(../scene/images/icon_modebg_blue.png) center no-repeat;
+    background-size: auto 65%;
+}
+.icon_control03
+{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    color: #7e8793;
+    background: url(../scene/images/icon_modebg_white.png) center no-repeat;
+    background-size: auto 65%;
+}
+.icon_control03_active
+{
+    color: #fff;
+    background: url(../scene/images/icon_modebg_blue.png) center no-repeat;
+    background-size: auto 65%;
+}
+
+
+.font_explain2
+{
+    position: relative;
+    top: 42%;
+    display: block;
+    font-size: .875em;
+    text-align: center;
+}
+/*三个按钮的样式 结束*/
+
+/*弹出框样式 开始*/
+.popupbg
+{
+    width: 100%;
+}
+.popupbg h2
+{
+    padding: 10px 0 10px;
+    color: #3e434a;
+    font-size: 1em;
+    text-align: center;
+}
+.popupbg p
+{
+    margin: 0 auto;
+    width: 88%;
+    color: #65696e;
+    font-size: .875em;
+    line-height: 1.5em;
+	
+}
+.checkbox
+{
+    margin: 5px auto 0;
+    padding-left: 30px;
+    width: 64px;
+    height: 24px;
+    color: #65696e;
+    background: url(../scene/images/checkbox.png) 5px no-repeat;
+    background-size: 16px 16px;
+    font-size: .875em;
+    line-height: 24px;
+}
+.checkbox_ok
+{
+    background: url(../scene/images/checkbox_ok.png) 5px no-repeat;
+    background-size: 16px 16px;
+}
+.btn_confirm
+{
+    display: block;
+    margin-top: 10px;
+    width: 50%;
+    height: 35px;
+    color: #09d;
+    border-top: 1px solid #e0e0e0;
+    font-size: 1em;
+    line-height: 35px;
+    text-align: center;
+	float:left;
+}
+.btn_confirm02
+{
+    display: block;
+    margin-top: 10px;
+    width: 49.5%;
+    height: 35px;
+    color: #999999;
+    border-top: 1px solid #e0e0e0;
+    font-size: 1em;
+    line-height: 35px;
+    text-align: center;
+	float:left;
+	border-right:1px solid #ccc;
+}
+/*弹出框样式 结束*/
+
+
+
+
+/*controlList 页面样式 开始*/
+.microwave_top_s_01
+{
+    height: 65px;
+    background: url(../scene/images/microwave_top_s_01.png) no-repeat;
+    background-size: 100% 100%;
+}
+.position
+{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    background: #fff;
+}
+/*下拉菜单的样式*/
+.mode_close_bg
+{
+    padding-top: 12px;
+    width: 100%;
+    height: 30px;
+    color: #656d78;
+    border-bottom: 1px solid #b6c2c6;
+    /*padding-left:30%;*/
+    text-align: center;
+}
+.mode_close_bg img
+{
+    margin: 0 10px;
+    width: 22px;
+    height: 30%;
+}
+.mode_open_bg
+{
+    border-bottom: 1px solid #b6c2c6;
+    background: #fff;
+}
+.pulldiv
+{
+    width: 100%;
+    height: 30px;
+    color: #656d78;
+    /*padding-left:30%;*/
+    text-align: center;
+}
+.pulldiv img
+{
+    margin: 0 10px;
+    width: 22px;
+    height: 30%;
+}
+.drawdown_menu
+{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.drawdown_menu_body
+{
+    margin-top: 20px;
+    width: 100%;
+}
+.drawdown_menu_opt
+{
+    float: left;
+    width: 18.75%;
+}
+.drawdown_menu_opt span
+{
+    float: right;
+    margin-top: 2px;
+}
+.drawdown_menu_icon
+{
+    float: left;
+    margin-right: 4.6875%;
+    margin-left: 4.6875%;
+    width: 60.9375%;
+    background: #fff;
+}
+.drawdown_menu_icon hr
+{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: #bfccd5;
+}
+.drawdown_menu_squ
+{
+    float: left;
+    width: 10.9375%;
+    background: #f8f8f8;
+}
+.drawdown_menu_icon_block
+{
+    float: left;
+    width: 25%;
+    height: 54px;
+    text-align: center;
+}
+.icon_modebg
+{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../scene/images/icon_modebg_white.png) center no-repeat;
+    background-size: auto 85%;
+}
+.icon_modebg span
+{
+    position: relative;
+    top: 35%;
+    display: block;
+    color: #7e8793;
+    font-size: .875em;
+    text-align: center;
+}
+.icon_modebg_active
+{
+    background: url(../scene/images/icon_modebg_blue.png) center no-repeat;
+    background-size: auto 85%;
+}
+.icon_modebg_active span
+{
+    position: relative;
+    top: 35%;
+    display: block;
+    color: #fff;
+    font-size: .875em;
+    text-align: center;
+}
+
+.but_start,
+.but_download
+{
+    margin: 4px;
+    width: 60px;
+    height: 24px;
+    border: 1px solid #28afeb;
+    border-radius: .3125em;
+    font-size: .85em;
+    line-height: 24px;
+    text-align: center;
+}
+.but_start
+{
+    color: #fff;
+    background: #28afeb;
+}
+.but_download
+{
+    color: #28afeb;
+    background: #fff;
+}
+.no-border
+{
+    border: none;
+    background: none;
+}
+/*detailed page */
+.info_title
+{
+    color: #656d78;
+    font-size: 1.875em;
+    text-align: center;
+}
+.info_title2
+{
+    padding: 20px 0 0 20px;
+    color: #656d78;
+    font-size: 1.875em;
+}
+.info_img
+{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+}
+.info_material
+{
+    display: block;
+    margin: 20px auto 0;
+    width: 100%;
+    height: auto;
+}
+.info_p
+{
+    margin: 20px auto;
+    width: 90%;
+    font-size: .875em;
+    line-height: 1.5em;
+    text-align: center;
+}
+.info_p02
+{
+    margin: 20px auto;
+    width: 90%;
+    font-size: .875em;
+    line-height: 1.5em;
+}
+.bottomDiv
+{
+    padding: 10px 0 20px 0;
+    width: 100%;
+    /*height:50px;*/
+    height: auto;
+    background: #fff;
+}
+.bottom_btn,
+.bottom_btn_download
+{
+    display: block;
+    margin: 10px auto 20px;
+    padding-top: 12px;
+    width: 80%;
+    height: 38px;
+    color: #fff;
+    border: 1px solid #46bc62;
+    border-radius: 4em;
+    font-size: 1.333em;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.bottom_btn
+{
+    background: #46bc62;
+}
+.bottom_btn_download
+{
+    /*background: #46bc62;*/
+}
+.bottom_btn_download img
+{
+    width: 24px;
+    height: 24px;
+}
+
+/*关闭按钮*/
+.poweroff_but,.poweroffing_but{
+	margin:0 auto; 
+	text-align:center; 
+	width:80%; 
+	height:50px; 
+	line-height:50px;
+	margin-bottom: 20px;
+	border-radius: 4em;
+	cursor:pointer;
+}
+.poweroff_but{
+	border:1px solid #bcc5cd;
+}
+.poweroffing_but{
+	border:1px solid #e12500;
+}
+
+.poweroff{
+	background: url(../scene/images/footer-power-icon.png) no-repeat ;
+}
+.poweroffing{
+	background: url(../scene/images/footer-power-icon-closing.png) no-repeat;
+}
+.poweroff,.poweroffing{
+	background-position:left center;
+	background-size:24px 24px;
+	color:#88939a;
+	padding-left: 30px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align:center;
+}
+/*定时加入样式*/
+.icon_modebg{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background:url(../scene/images/icon_modebg_white.png) center no-repeat;
+	background-size:auto 85%;
+	display:block;
+}
+.icon_modebg span{
+	color:#7e8793;
+	font-size:0.875em;
+	text-align:center;
+	display:block;
+	position: relative;
+	top:42%;
+}
+.icon_modebg_active{
+	background:url(../scene/images/icon_modebg_blue.png) center no-repeat;
+	background-size:auto 85%;
+}
+.icon_modebg_active span{
+	color:#fff;
+	font-size:0.875em;
+	text-align:center;
+	display:block;
+	position: relative;
+	top:40%;
+}
+
+.font_explain4{
+	color:#7e8793;
+	font-size:1.083em;
+	text-align:center;
+	display:block;
+	position: relative;
+	top:41%;
+}
+
+/* Swiper Styles */
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+	margin-top:80px;
+	width:300px;
+}
+.swiper-slide {
+	font-size:1.25em;
+	color:515151;
+	margin-left:-60px;
+}
+
+
+
+.schedule_bg{
+	height:71px;
+	background:url(../scene/images/schedule_bg.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.swiper_div_a{
+	float:left;
+	width:49%;
+	
+}
+.swiper_div_b{
+	float:right;
+	width:49%;
+}
+
+/* 2014-10-08 cart waiting control class */
+.ricecooker_01_waiting{
+	float:left;
+	background:url(../scene/images/waiting.gif)  no-repeat;
+	background-position:20%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:18%;
+	padding-left:14%;
+}
+.ricecooker_02_waiting{
+	float:left;
+	background:url(../scene/images/waiting.gif)  no-repeat;
+	background-position:35%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:15%;
+	padding-left:18%;
+}
+.ricecooker_cancel_waiting{
+	float:left;
+	background:url(../scene/images/waiting.gif)  no-repeat;
+	background-position:40%;
+	background-size:20px 20px;
+	color:#88939a;
+	display:block;
+	width:60%;
+	padding-left:50%;
+}
+.scene{
+	position: absolute;
+    top: 30px;
+    right: 10px;
+    display: block;
+    padding: 5px 5px 5px 20px;
+    color: #fff;
+    text-shadow: 0 0 0 #505050;
+    font-size: 1em;
+	float:right;
+	
+}
+.t_content{
+	font-size:1.2em;
+	color:#fff;
+	background:url(../images/2x/top_bg.png);
+	background-repeat:no-repeat;
+	height:328px;
+	background-size:100% 100%;
+	background-position:0px -125px;
+	text-align:center;
+}
+ul li{
+	margin-top:5px;
+	font-size:1em;
+	background:url(../images/2x/display.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:5px 5px 5px 5px;
+}
